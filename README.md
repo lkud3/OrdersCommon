@@ -8,3 +8,5 @@ Each of the master records can be edited, as well as its details, which are the 
 The final application is a great example of complex logical system that operates syncrounisly with the database, that can be easily replaced with remote one.
 
 The Local Database works on SQL Server Management Studio 20 and can be found in DB folder along with its schema for creating from scratch.
+
+Settings.json has all the paths for DB connection, change it according to your topology.
