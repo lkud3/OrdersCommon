@@ -1,0 +1,255 @@
+﻿namespace Orders.UX.WinForms
+{
+    partial class CViewEntityItemOrder
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            btnDeleteDetail = new Button();
+            btnNewDetail = new Button();
+            lblId = new Label();
+            txtId = new TextBox();
+            lblCustomer = new Label();
+            cboCustomer = new ComboBox();
+            lblStore = new Label();
+            cboStore = new ComboBox();
+            lblOrderDatetime = new Label();
+            dtOrderDatetime = new DateTimePicker();
+            lblOrderLines = new Label();
+            dgvDetails = new DataGridView();
+            lblSupplier = new Label();
+            cboSupplier = new ComboBox();
+            lblFlag = new Label();
+            cboFlag = new ComboBox();
+            ((System.ComponentModel.ISupportInitialize)dgvDetails).BeginInit();
+            SuspendLayout();
+            // 
+            // btnDeleteDetail
+            // 
+            btnDeleteDetail.Location = new Point(1218, 233);
+            btnDeleteDetail.Margin = new Padding(6);
+            btnDeleteDetail.Name = "btnDeleteDetail";
+            btnDeleteDetail.Size = new Size(59, 68);
+            btnDeleteDetail.TabIndex = 24;
+            btnDeleteDetail.Text = "-";
+            btnDeleteDetail.UseVisualStyleBackColor = true;
+            btnDeleteDetail.Click += DoOnAnyCommand;
+            // 
+            // btnNewDetail
+            // 
+            btnNewDetail.Location = new Point(1148, 233);
+            btnNewDetail.Margin = new Padding(6);
+            btnNewDetail.Name = "btnNewDetail";
+            btnNewDetail.Size = new Size(59, 68);
+            btnNewDetail.TabIndex = 23;
+            btnNewDetail.Text = "+";
+            btnNewDetail.UseVisualStyleBackColor = true;
+            btnNewDetail.Click += DoOnAnyCommand;
+            // 
+            // lblId
+            // 
+            lblId.AutoSize = true;
+            lblId.Location = new Point(89, 32);
+            lblId.Margin = new Padding(6, 0, 6, 0);
+            lblId.Name = "lblId";
+            lblId.Size = new Size(42, 32);
+            lblId.TabIndex = 17;
+            lblId.Text = "ID:";
+            // 
+            // txtId
+            // 
+            txtId.Location = new Point(219, 26);
+            txtId.Margin = new Padding(6);
+            txtId.Name = "txtId";
+            txtId.Size = new Size(602, 39);
+            txtId.TabIndex = 13;
+            // 
+            // lblCustomer
+            // 
+            lblCustomer.AutoSize = true;
+            lblCustomer.Location = new Point(19, 92);
+            lblCustomer.Margin = new Padding(6, 0, 6, 0);
+            lblCustomer.Name = "lblCustomer";
+            lblCustomer.Size = new Size(122, 32);
+            lblCustomer.TabIndex = 18;
+            lblCustomer.Text = "Customer:";
+            // 
+            // cboCustomer
+            // 
+            cboCustomer.FormattingEnabled = true;
+            cboCustomer.Location = new Point(219, 85);
+            cboCustomer.Margin = new Padding(6);
+            cboCustomer.Name = "cboCustomer";
+            cboCustomer.Size = new Size(442, 40);
+            cboCustomer.TabIndex = 16;
+            // 
+            // lblStore
+            // 
+            lblStore.AutoSize = true;
+            lblStore.Location = new Point(716, 184);
+            lblStore.Margin = new Padding(6, 0, 6, 0);
+            lblStore.Name = "lblStore";
+            lblStore.Size = new Size(74, 32);
+            lblStore.TabIndex = 25;
+            lblStore.Text = "Store:";
+            // 
+            // cboStore
+            // 
+            cboStore.FormattingEnabled = true;
+            cboStore.Location = new Point(836, 181);
+            cboStore.Margin = new Padding(6);
+            cboStore.Name = "cboStore";
+            cboStore.Size = new Size(442, 40);
+            cboStore.TabIndex = 26;
+            // 
+            // lblOrderDatetime
+            // 
+            lblOrderDatetime.AutoSize = true;
+            lblOrderDatetime.Location = new Point(15, 216);
+            lblOrderDatetime.Margin = new Padding(6, 0, 6, 0);
+            lblOrderDatetime.Name = "lblOrderDatetime";
+            lblOrderDatetime.Size = new Size(187, 32);
+            lblOrderDatetime.TabIndex = 19;
+            lblOrderDatetime.Text = "Order Made On:";
+            // 
+            // dtOrderDatetime
+            // 
+            dtOrderDatetime.Format = DateTimePickerFormat.Short;
+            dtOrderDatetime.Location = new Point(219, 207);
+            dtOrderDatetime.Margin = new Padding(6);
+            dtOrderDatetime.Name = "dtOrderDatetime";
+            dtOrderDatetime.ShowCheckBox = true;
+            dtOrderDatetime.Size = new Size(396, 39);
+            dtOrderDatetime.TabIndex = 14;
+            // 
+            // lblOrderLines
+            // 
+            lblOrderLines.AutoSize = true;
+            lblOrderLines.Location = new Point(219, 252);
+            lblOrderLines.Margin = new Padding(6, 0, 6, 0);
+            lblOrderLines.Name = "lblOrderLines";
+            lblOrderLines.Size = new Size(313, 32);
+            lblOrderLines.TabIndex = 22;
+            lblOrderLines.Text = "Items Included in the Order:";
+            // 
+            // dgvDetails
+            // 
+            dgvDetails.ColumnHeadersHeight = 46;
+            dgvDetails.Location = new Point(219, 314);
+            dgvDetails.Margin = new Padding(6);
+            dgvDetails.Name = "dgvDetails";
+            dgvDetails.RowHeadersWidth = 82;
+            dgvDetails.RowTemplate.Height = 25;
+            dgvDetails.Size = new Size(1059, 734);
+            dgvDetails.TabIndex = 21;
+            // 
+            // lblSupplier
+            // 
+            lblSupplier.AutoSize = true;
+            lblSupplier.Location = new Point(19, 157);
+            lblSupplier.Margin = new Padding(6, 0, 6, 0);
+            lblSupplier.Name = "lblSupplier";
+            lblSupplier.Size = new Size(107, 32);
+            lblSupplier.TabIndex = 27;
+            lblSupplier.Text = "Supplier:";
+            // 
+            // cboSupplier
+            // 
+            cboSupplier.FormattingEnabled = true;
+            cboSupplier.Location = new Point(219, 149);
+            cboSupplier.Margin = new Padding(6);
+            cboSupplier.Name = "cboSupplier";
+            cboSupplier.Size = new Size(442, 40);
+            cboSupplier.TabIndex = 28;
+            // 
+            // lblFlag
+            // 
+            lblFlag.AutoSize = true;
+            lblFlag.Location = new Point(716, 93);
+            lblFlag.Margin = new Padding(6, 0, 6, 0);
+            lblFlag.Name = "lblFlag";
+            lblFlag.Size = new Size(63, 32);
+            lblFlag.TabIndex = 29;
+            lblFlag.Text = "Flag:";
+            // 
+            // cboFlag
+            // 
+            cboFlag.FormattingEnabled = true;
+            cboFlag.Location = new Point(836, 93);
+            cboFlag.Margin = new Padding(6);
+            cboFlag.Name = "cboFlag";
+            cboFlag.Size = new Size(442, 40);
+            cboFlag.TabIndex = 30;
+            // 
+            // CViewEntityItemOrder
+            // 
+            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1315, 1094);
+            Controls.Add(cboFlag);
+            Controls.Add(lblFlag);
+            Controls.Add(cboSupplier);
+            Controls.Add(lblSupplier);
+            Controls.Add(btnDeleteDetail);
+            Controls.Add(btnNewDetail);
+            Controls.Add(lblId);
+            Controls.Add(txtId);
+            Controls.Add(lblCustomer);
+            Controls.Add(cboCustomer);
+            Controls.Add(lblStore);
+            Controls.Add(cboStore);
+            Controls.Add(lblOrderDatetime);
+            Controls.Add(dtOrderDatetime);
+            Controls.Add(lblOrderLines);
+            Controls.Add(dgvDetails);
+            Margin = new Padding(6);
+            Name = "CViewEntityItemOrder";
+            Text = "CViewEntityOrderLines";
+            ((System.ComponentModel.ISupportInitialize)dgvDetails).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Button btnDeleteDetail;
+        private Button btnNewDetail;
+        private Label lblId;
+        private TextBox txtId;
+        private Label lblCustomer;
+        private ComboBox cboCustomer;
+        private Label lblStore;
+        private ComboBox cboStore;
+        private Label lblOrderDatetime;
+        private DateTimePicker dtOrderDatetime;
+        private Label lblOrderLines;
+        private DataGridView dgvDetails;
+        private Label lblSupplier;
+        private ComboBox cboSupplier;
+        private Label lblFlag;
+        private ComboBox cboFlag;
+    }
+}

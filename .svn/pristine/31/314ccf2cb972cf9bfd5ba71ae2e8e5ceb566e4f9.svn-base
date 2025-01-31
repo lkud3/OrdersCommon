@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\C#_Code\\SemesterProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E00DD381-2502-4DFD-8AC6-2100C91F621E}|OrdersUX\\OrdersUX.csproj|c:\\users\\asus\\desktop\\c#_code\\semesterproject\\ordersux\\cformorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E00DD381-2502-4DFD-8AC6-2100C91F621E}|OrdersUX\\OrdersUX.csproj|solutionrelative:ordersux\\cformorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CFormOrders.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\C#_Code\\SemesterProject\\OrdersUX\\CFormOrders.cs",
+              "RelativeDocumentMoniker": "OrdersUX\\CFormOrders.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\C#_Code\\SemesterProject\\OrdersUX\\CFormOrders.cs [Design]",
+              "RelativeToolTip": "OrdersUX\\CFormOrders.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:30:13.427Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
